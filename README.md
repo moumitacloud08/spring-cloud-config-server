@@ -18,3 +18,6 @@ create file limits-service.properties (limits-service application name)
 Go to  git-localconfig-repo and open Git Bash -> Run following commands
 git add -A
 git commit -m "first commit"
+
+Right click on git-localconfig-repo -> properties -> Resource -> Copy location and put in spring-cloud-config-server.properties file
+http://localhost:8888/limits-service/default
